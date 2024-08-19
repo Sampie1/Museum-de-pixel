@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('valobg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.topnav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #FF4655;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+.left-nav a,
+.center-nav a,
+.right-nav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  transition: color 0.3s;
+}
+
+.left-nav a {
+  margin-right: auto;
+}
+
+.center-nav {
+  justify-content: center;
+}
+
+.right-nav a {
+  margin-left: auto;
+}
+
+.topnav a {
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.topnav a:hover {
+  color: #000000;
+}
+
+.topnav a[href="#home"],
+.topnav a[href="#weapons"],
+.topnav a[href="#game-modes"],
+.topnav a[href="#about-us"] {
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.topnav a[href="#home"]:hover,
+.topnav a[href="#weapons"]:hover,
+.topnav a[href="#game-modes"]:hover,
+.topnav a[href="#about-us"]:hover {
+  color: #000000;
+}
+
+.tutorial {
+  width: 11em;
+  border: 3px solid #FF4655;
+  padding: 7px 11px;
+  background-image: linear-gradient(31, 71, 252);
+}
+
+header {
+  background-color: #ffffff00;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header img {
+  width: auto;
+  max-height: 200px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FF4655;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1, h2 {
+
+  color:white
+
+}
+
+p {
+  color: white
+}
+
+
